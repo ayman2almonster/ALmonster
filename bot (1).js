@@ -315,6 +315,7 @@ function play(guild, song) {
 client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
+	.addField('the bot by Ayman ALmonster')
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
         .addField('play', 'لتشغيل اغنية')
